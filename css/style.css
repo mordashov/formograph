@@ -73,5 +73,36 @@
 }
 
 .footer__info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     width: 33%;
+    font-size: 18pt;
+    color: #3c3c3c;
+}
+
+.footer__info__icon {
+    width: 20%;
+}
+
+.footer__info__tel {
+    width: 50%;
+}
+.footer__info__tel__item {
+    display: block;
+    width: 100%;
+}
+
+.footer__info__link {
+    width: 70%;
+    margin-left: 10px;
+}
+
+.footer__info__link__item {
+    display: inline-block;
+    width: 45%;
+    text-decoration: none;
+    text-decoration: underline dotted;
+    color: #3c3c3c;
 }
