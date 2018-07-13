@@ -86,12 +86,17 @@
 
 }
 
+.footer__line {
+    width: 100%;
+    height: 1px;
+    background-color: #646464;
+}
+
 .footer__info {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    border-bottom: 1px solid #000000;
 
 
     width: 33%;
@@ -101,7 +106,8 @@
 }
 
 .footer__info__icon {
-    width: 20%;
+    width: 68px;
+    height: 88px;
 }
 
 .footer__info__tel {
@@ -122,6 +128,13 @@
     text-decoration: none;
     color: #3c3c3c;
     border-bottom: 1px dashed;
+    margin-left: 20px;
+}
+
+.footer__info-2 {
+    display: flex;
+    justify-content: center;
+
 }
 
 .footer__info-2__mail {
@@ -129,13 +142,46 @@
     color: #3c3c3c;
 }
 
+.footer__info-3 {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
 .footer__info__site {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .footer__info__site_item {
     width: 25%;
 }
+
+.footer__info__site-5 {
+    text-align: right;
+}
+
+.footer__info__site-2 {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.footer__info__site-3 {
+    text-align: center;
+    width: 175px;
+    border-right: 1px solid #3c3c3c;
+    border-left: 1px solid #3c3c3c;
+
+
+}
+
+.footer__info__site-4 {
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+
